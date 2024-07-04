@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: satoshi;
+    src: url(../fonts/Satoshi.otf);
+}
+
+.satoshi {
+    font-family: satoshi;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media (max-width: 576px) {
+
+    /*HP*/
+    .font-3-5rem {
+        font-size: 2.5rem;
+    }
+
+    .font-3rem {
+        font-size: 2rem;
+    }
+
+    .font-2-5rem {
+        font-size: 1.8rem;
+    }
+
+    .font-2rem {
+        font-size: 1.5rem;
+    }
+
+    .font-0-8rem {
+        font-size: 0.9rem;
+    }
+
+    .font-1rem {
+        font-size: 1rem;
+    }
+
+    .font-1-2rem {
+        font-size: 1.1rem;
+    }
+
+    .font-1-5rem {
+        font-size: 1.2rem;
+    }
+
+    .border-gradient-1 {
+        border-top: 8px solid;
+        border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 75%, rgba(243, 243, 253, 1) 100%);
+        border-image-slice: 1;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /*Laptop*/
+    .font-3-5rem {
+        font-size: 3.5rem;
+    }
+
+    .font-3rem {
+        font-size: 3rem;
+    }
+
+    .font-2-5rem {
+        font-size: 2.5rem;
+    }
+
+    .font-2rem {
+        font-size: 2rem;
+    }
+
+    .font-1rem {
+        font-size: 1rem;
+    }
+
+    .font-0-8rem {
+        font-size: 0.8rem;
+    }
+
+    .font-1-2rem {
+        font-size: 1.2rem;
+    }
+
+    .font-1-5rem {
+        font-size: 1.5rem;
+    }
+
+    .border-gradient-1 {
+        border-top: 8px solid;
+        border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+        border-image-slice: 1;
+    }
+}
+
+.z-index {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}  
+
+.bg-1 {
+    background-image: linear-gradient(rgba(58, 142, 246, 1), rgba(111, 58, 250, 1));
+}
+
+.bg-2 {
+    background-color: #f3f3fd;
+    background-image: url('../img/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    background-color: #f3f3fd;
+    background-image: url('../img/bg-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-4 {
+    background-color: #FFFFFF;
+    background-image: url('../img/bg-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-video {
+    position: relative;
+    z-index: 1;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+.border-gradient-2 {
+    border-bottom: 3px solid;
+    border-image: radial-gradient(circle, rgba(243, 243, 253, 1) 75%, rgba(104, 69, 250, 1) 100%);
+    border-image-slice: 1;
+}
+
+.border-gradient-3 {
+    border-bottom: 5px solid;
+    border-image: radial-gradient(circle, rgba(22, 120, 242, 1) 25%, rgba(243, 243, 253, 1) 100%);
+    border-image-slice: 1;
+}
+
+.bg-card {
+    background-image: linear-gradient(to right, rgba(58, 142, 246, 1), rgba(111, 58, 250, 1));
+}
+
+#cta:hover {
+    transform: scale(1.1);
+}
+
+#cta {
+    transition: transform 0.3s ease;
+}
+
+.title-faq[open] summary {
+    background-color: #FFFFFF;
+    border-bottom: 5px solid #1678F2;
+    color: #121212;
+}
+
+.title-faq[open] summary svg {
+    background-color: #FFFFFF;
+    color: #121212;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-stroke {
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+}
+
+.char {
+    opacity: 0;
+    animation: charFadeIn 0.5s forwards;
+}
+
+@keyframes charFadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.char:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.char:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.char:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.char:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.char:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+.char:nth-child(6) {
+    animation-delay: 3s;
+}
+
+.char:nth-child(7) {
+    animation-delay: 3.5s;
+}
+
+.char:nth-child(8) {
+    animation-delay: 4s;
+}
